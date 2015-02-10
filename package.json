@@ -1,11 +1,14 @@
 {
   "name": "jsx-loader",
-  "version": "0.12.2",
+  "version": "0.12.2-cvent",
   "description": "JSX loader for webpack",
   "main": "index.js",
   "dependencies": {
     "react-tools": ">=0.12.1",
     "loader-utils": "^0.2.2"
+  },
+  "publishConfig": {
+    "registry": "http://nexus-01.cvent.net:8081/nexus/content/repositories/npm-local/"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
